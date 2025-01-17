@@ -1,0 +1,177 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Texte sombre */
+    line-height: 1.6; /* Espacement entre les lignes */
+}
+
+
+/* Barre de navigation */
+.navigateur {
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(
+        rgba(6, 196, 214, 0.5), 
+        rgba(30, 119, 127, 0.279)
+    );
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+ul li a:hover {
+    background-color: rgb(6, 3, 3);
+    color: #00ddff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Contenu principal */
+.main-content {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-image: url();
+}
+
+/* Description */
+.description {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.description h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.description p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+/* Galerie d'images */
+.gallery {
+    margin-bottom: 30px;
+}
+
+.gallery h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.images {
+        display: flex;
+        gap: 20px;
+        justify-content: center; /* Centrer les images */
+        flex-wrap: wrap; /* Permettre le retour à la ligne pour les petites écrans */
+        padding: 20px;
+    }
+    .images img {
+        width: 500px; /* L'image prend la largeur du conteneur */
+        /* max-width: 200px; Largeur maximale des images */
+        border-radius: 10px; /* Bordures arrondies */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombres */
+        transition: transform 0.3s ease; /* Effet au survol */
+        text-align: right;
+        height: 400px;
+    }
+    .image-title {
+        margin-top: 10px; /* Espacement entre l'image et le titre */
+        font-size: 14px; /* Taille de la police du titre */
+        color:white; /* Couleur du texte */
+        font-weight: bold; /* Mettre le titre en gras */
+    }
+.images img:hover {
+    transform: scale(1.05); /* Agrandissement au survol */
+}
+
+/* Vidéo */
+.video-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/* Pied de page */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
+
+.image-cité {
+    width: 100px;
+    height: 200px;
+    
+}
+/* Configuration générale */
+body {
+    
+    background-image: url("img5.webp");
+    
+  
+    background-repeat: repeat;
+    
+  
+    background-size: cover;
+    
+    
+    background-position: center;
+    
+    
+    background-attachment: fixed;
+    
+  
+}
+.AMIR{display: flex;}
+@keyframes zeina{
+    0%{transform: scale(1);}
+    50%{transform: scale(0.9);}
+    100%{transform: scale(1.2);}
+    
+}
+h3{animation: zeina 50s infinite;
+font-size: 18pt;}
+.image-cité:hover{width: 900px;
+    height: 700px;
+    transform: scale(5);
+}
+
+
+
+
+
+
+
+
+
+
+    

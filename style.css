@@ -1,0 +1,111 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* Configuration générale */
+ body {
+    
+        background-image: url("imgback.jpg");
+        
+      
+        background-repeat: no-repeat;
+        
+      
+        background-size: cover;
+        
+        
+        background-position: center;
+        
+        
+        background-attachment: fixed;
+        
+      
+    }
+
+.main {
+    display: flex;
+    flex-direction: column; /* Organisation verticale */
+    min-height: 100vh; /* Prend toute la hauteur de l'écran */
+    background-image: linear-gradient(
+        rgba(50, 204, 218, 0.5), 
+        rgba(0, 0, 0, 0.5)
+    ), url('');      
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+/* Barre de navigation */
+.navigateur {
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+ul li a:hover {
+    background-color: rgb(6, 3, 3);
+    color: #e4e5e9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Contenu principal */
+.contenu {
+    flex: 1; /* Prend l'espace disponible */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.contenu h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.contenu p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px; /* Limite la largeur du paragraphe */
+    margin: 0 auto;
+}
+
+/* Pied de page */
+footer {
+    background: #333;
+    color: rgba(242, 243, 246, 0.926);
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
